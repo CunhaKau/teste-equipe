@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>meu primeiro código :D</title>
 </head>
 <body>
@@ -45,6 +46,40 @@
     ?>   </h2>
    
 
+=======
+    <title>Meu primeiro código</title>
+</head>
+<body>
+ 
+<h2> 
+
+<?php
+
+ echo "Bom dia!"
+
+?>
+</h2>
+
+<?php 
+
+// Declaração de variável
+
+ $nome = "Victor";
+   $sobrenome = "Previato";
+
+  
+// O comando: echo "<br> <br>"; é usado para pular uma linha 
+
+// Declaração de constante
+
+const jogofav = "The Legend of Zelda: BOTW!";
+
+echo "Seja bem-vindo $nome $sobrenome! <br> <br> Seu jogo favorito é " . jogofav
+
+// Uma variável pode ser atualizada
+
+?>
+>>>>>>> ac848bcdf1cb44686f7490ddea92b203ef736b40
 
 </body>
 </html>

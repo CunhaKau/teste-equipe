@@ -6,6 +6,7 @@
     <title>Operadores de Atribuição</title>
 </head>
 <body>
+<<<<<<< HEAD
     
 <h2>Operadores de Atribuição</h2>
 
@@ -35,5 +36,39 @@
 
     ?>
 
+=======
+
+  <h2>Operadores de Atribuição</h2>
+
+  <?php 
+  
+  //string
+
+  $rua = "Rua Amador Bueno";
+  //Atribuição com concatenação
+  $rua .= " ,na cidade de São Paulo"; //.= concatena uma string atualizando uma variavel
+
+  //float
+  $preco = 2.45;
+  //atribuição de soma
+  $preco += 2.30;
+  //atribuicao de subtração
+  $preco -= 1.30;
+
+  //formata o número para usar vírgula como separador decimal
+
+  $preco_formatado = number_format($preco, 2, ',','.');
+
+
+  //exibe o resultado - por interpolação
+
+  echo "$rua <br> <br> Preço R$ $preco_formatado";
+  
+  
+  ?>
+
+
+    
+>>>>>>> ac848bcdf1cb44686f7490ddea92b203ef736b40
 </body>
 </html>
