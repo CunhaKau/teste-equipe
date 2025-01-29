@@ -23,7 +23,7 @@
     // atribuição soma
     $preco += 2.30;
     // atribuição de subtração  (todo - ou + com = ( -=; +=; ), é uma soma de um novo valor com a prinmeira variavél que foi o preco = 2.45;)
-    $preco -= 1.30;
+    $preco -= 1.35;
 
     // Formata o meu número para usar virgula
     $preco_formatado = number_format($preco, 2, ',', '.'); 
